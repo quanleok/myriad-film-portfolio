@@ -1,0 +1,1 @@
+-- No seed data. Production database is populated via the application.

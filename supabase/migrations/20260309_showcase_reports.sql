@@ -1,0 +1,1 @@
+-- Already applied via 20260310000001_community_rename.sql — kept as no-op for migration history sync

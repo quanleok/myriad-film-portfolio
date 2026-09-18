@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  min-height: 100%;
+  background:
+    radial-gradient(circle at top left, rgba(72, 239, 196, 0.16), transparent 28%),
+    radial-gradient(circle at top right, rgba(103, 182, 255, 0.18), transparent 26%),
+    linear-gradient(180deg, #060816 0%, #090d1a 48%, #070910 100%);
+  color: #eef3ff;
+}
+
+body {
+  font-feature-settings: "ss01" on, "cv02" on;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.signal-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+.signal-card {
+  border: 1px solid rgba(125, 180, 255, 0.12);
+  background: linear-gradient(180deg, rgba(14, 20, 39, 0.96), rgba(8, 11, 24, 0.95));
+  box-shadow:
+    0 24px 60px rgba(0, 0, 0, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.signal-chip {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(10px);
+}
+
+.signal-kicker {
+  color: rgba(151, 210, 255, 0.82);
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+  font-size: 0.72rem;
+}
+
+.signal-metric {
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  line-height: 0.95;
+}
+
+.signal-link {
+  transition:
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.signal-link:hover {
+  color: #67b6ff;
+  transform: translateX(2px);
+}
+
+.signal-scroll::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+.signal-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+}

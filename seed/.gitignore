@@ -1,0 +1,17 @@
+# Don't commit video files to git (too large)
+creators/*/videos/*/video.mp4
+creators/*/videos/*/video.mov
+creators/*/videos/*/video.webm
+creators/*/videos/*/video.avi
+
+# Don't commit large image files (avatars/thumbnails)
+creators/*/avatar.jpg
+creators/*/avatar.png
+creators/*/videos/*/thumbnail.jpg
+creators/*/videos/*/thumbnail.png
+
+# Downloaded source videos
+downloads/
+
+# Sensitive config
+.env

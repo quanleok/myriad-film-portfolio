@@ -1,0 +1,9 @@
+{
+  "title": "Prompt Engineering for Video AI",
+  "description": "Part two of the business tutorial series, diving deeper into advanced strategies and real-world use cases for leveraging open-source AI tools.",
+  "genre": "documentary",
+  "content_type": "movie",
+  "tags": ["prompts", "tutorial", "guide"],
+  "pricing_model": "per_video",
+  "price_cents": 499
+}

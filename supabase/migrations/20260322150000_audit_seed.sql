@@ -1,0 +1,4 @@
+-- Portfolio copy: the original migration contained only private demo accounts
+-- and sample content. Those data operations are intentionally omitted.
+-- The migration filename is retained; no schema operation was removed.
+-- Use the guarded local seed tools for a new development database.

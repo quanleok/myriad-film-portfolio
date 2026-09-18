@@ -1,0 +1,77 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# audit screenshots & artifacts (local only)
+docs/audit/
+docs/site-overview/
+docs/report-screenshots/
+.playwright-mcp/
+/tmp/
+/*.png
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.env.test
+
+# supabase
+supabase/.temp/
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+.claude/worktrees/
+.env.check
+
+# agent artifacts
+/test-results/
+/tmp/
+docs/agent-comms/
+
+# Sentry Config File
+.env.sentry-build-plugin
+seed/videos/
+channels4_profile.jpg
+
+# Private credentials and captured development sessions
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+.mcp.json
+.mcp.*.json
+**/.auth/
+**/auth-state*.json
+**/storage-state*.json
+**/storageState*.json
+**/cookies*.json
+docs/audits/
+docs/audit-handoff*.md
+dogfood-output/
+.private/
+.secrets/

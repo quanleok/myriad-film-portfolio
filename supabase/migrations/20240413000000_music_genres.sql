@@ -1,0 +1,13 @@
+-- Add music-specific genres to the genre enum
+ALTER TYPE genre ADD VALUE IF NOT EXISTS 'pop';
+ALTER TYPE genre ADD VALUE IF NOT EXISTS 'rock';
+ALTER TYPE genre ADD VALUE IF NOT EXISTS 'hip_hop';
+ALTER TYPE genre ADD VALUE IF NOT EXISTS 'electronic';
+ALTER TYPE genre ADD VALUE IF NOT EXISTS 'jazz';
+ALTER TYPE genre ADD VALUE IF NOT EXISTS 'r_and_b';
+ALTER TYPE genre ADD VALUE IF NOT EXISTS 'country';
+ALTER TYPE genre ADD VALUE IF NOT EXISTS 'indie';
+ALTER TYPE genre ADD VALUE IF NOT EXISTS 'classical';
+ALTER TYPE genre ADD VALUE IF NOT EXISTS 'latin';
+ALTER TYPE genre ADD VALUE IF NOT EXISTS 'lo_fi';
+ALTER TYPE genre ADD VALUE IF NOT EXISTS 'ambient';

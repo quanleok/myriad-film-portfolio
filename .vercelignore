@@ -1,0 +1,9 @@
+seed/
+docs/
+tests/
+standalone/
+public/icons/icon/
+public/icons/icons/
+*.bak
+*.backup
+*.tmp
